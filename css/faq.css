@@ -1,0 +1,24 @@
+/* CSS Document */
+section {
+  text-align: left;
+  margin: 20px auto;
+  max-width: 1080px;
+}
+section div {
+  margin: 20px 0;
+}
+section h2{
+    margin: 20px 0;
+  font-weight: 600;
+  font-size: 2.4rem;
+}
+section h3 {
+  margin: 20px 0;
+  font-weight: 600;
+  font-size: 2.4rem;
+}
+@media(max-width: 1080px) {
+  section {
+    margin: 20px 20px;
+  }
+}

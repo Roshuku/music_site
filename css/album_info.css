@@ -1,0 +1,145 @@
+/* CSS Document */
+.main {
+  max-width: 1080px;
+  min-width: 375px;
+  margin: 0 auto;
+}
+.section-albumInfo__box {
+  display: flex;
+  margin: 20px 0;
+}
+.buy_button {
+  display: inline-block;
+  text-align: center;
+  padding: 20px 80px;
+  font-size: 2.4rem;
+  font-weight: 600;
+  margin: 20px 0;
+  border: 2px solid #333;
+  background-color: #fff;
+}
+.music-list {
+  width: 100%;
+}
+.section-albumInfo ul {
+  display: flex;
+  justify-content: space-between;
+}
+.section-albumInfo ul li {
+  display: flex;
+}
+.section-albumInfo ul li p {
+  width: 100%;
+}
+.album-buy {
+  width: 400px;
+  margin: 0 20px 0 0;
+  box-shadow: 5px 5px 15px rgba(187, 187, 187, 187);
+}
+.album-buy img {
+  width: 100%;
+}
+.album-buy__info {
+  display: flex;
+  text-align: left;
+  justify-content: space-between
+}
+.album-buy__info p 
+{
+  margin:0 5px 10px 5px;
+}
+.section-recommend {
+  background-color: #F6FBFF;
+  padding: 24px 0;
+}
+.section-recommend h2 {
+  text-align: left;
+  font-size: 3.2rem;
+  margin: 0 0 24px 0;
+}
+.section-recommend ul {
+  display: flex;
+  justify-content: space-between;
+  margin: 0 0 24px 0;
+}
+
+.section-recommend ul li {
+  box-shadow: 5px 5px 15px rgba(187, 187, 187, 187);
+  text-align: left;
+  background-color: #fff;
+}
+.section-recommend img {
+  width: 225px;
+  height: 225px;
+  object-fit: cover;
+}
+.section-recommend p 
+{
+  margin:0 0 10px 5px;
+}
+.album_title{
+  font-size:2.4rem;
+  font-weight:500;
+}
+
+@media(max-width :1080px) {
+  .album-buy {
+    width: auto;
+    margin: 20px 20px 0 20px;
+    box-shadow: 5px 5px 15px rgba(187, 187, 187, 187);
+  }
+  .section-albumInfo {
+    display: inline-block;
+    flex-direction: column;
+    margin: 0 auto;
+    text-align: center;
+  }
+  .album-buy__info {
+    display: flex;
+    flex-direction: column-reverse;
+    text-align: left;
+    justify-content: space-between
+  }
+  .album-buy__info .album-title {
+    font-size: 2.8rem;
+  }
+  .album-buy__info h2 {
+    font-size: 3.2rem;
+  }
+  .section-albumInfo__box {
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
+    text-align: center;
+  }
+  .music-list {
+    width: auto;
+    margin: 20px;
+    align-content: center;
+  }
+  .section-recommend {
+    padding: 24px 0;
+  }
+  .section-recommend h2 {
+    margin: 0 20px;
+  }
+  .section-recommend ul {
+    display: flex;
+    flex-direction: column;
+    margin: 0 20px;
+  }
+  .section-recommend ul li {
+    margin: 20px 0 0;
+  }
+  .section-recommend ul li a {
+    display: flex;
+    flex-direction: row;
+    /*空白*/
+    margin: 20px 0 20px 0;
+  }
+  .section-ranking__info {}
+  .section-ranking img {
+    width: 50%;
+    height: 100%;
+  }
+}

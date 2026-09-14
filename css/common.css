@@ -1,0 +1,133 @@
+/* CSS Document */
+html {
+  font-size: 62.5%;
+  background-color: #ffffff;
+  width: 100%;
+}
+body {
+  text-align: center;
+  font-size: 1.6rem;
+  color: #333;
+  font-family: 'M PLUS 1p', sans-serif;
+  min-width: 375px;
+}
+ul {
+  list-style: none;
+}
+ol {
+  list-style: none;
+}
+a {
+  text-decoration: none;
+  color: #333;
+}
+a:hover {
+  text-decoration: none;
+}
+.read-more {
+  display: inline-block;
+  text-align: center;
+  width: 200px;
+  padding: 22px 0;
+  border: 3px solid #75828F;
+  font-size: 2.4rem;
+  background-color: #fff;
+}
+.header {
+  background-color: #75828F;
+  height: 50px;
+  /*position:sticky;*/
+  top: 0;
+}
+.header h1 {
+  font-weight: 600;
+  font-size: 2.4rem;
+  color: white;
+  padding: 0 14px 0 0;
+}
+.header-box {
+  max-width: 1080px;
+  margin: 0 auto;
+  display: flex;
+  padding: 14px 0 0 0;
+}
+.header .search-box input {
+  height: 100%;
+}
+/*スマホ*/
+@media(max-width :1080px) {
+  .header {
+    background-color: #75828F;
+    height: 100px;
+    text-align: left;
+  }
+  .header h1 {
+    padding: 14px 0;
+  }
+  .header-box {
+    flex-direction: column;
+    margin: 0 0 20px 20px;
+  }
+}
+/*PC*/
+.footer {
+  background-color: #75828F;
+  margin: 0 auto;
+  /*text-align:center;*/
+  color: #fff;
+}
+.footer-box {
+  margin: 0 auto;
+  max-width: 1080px;
+}
+.footer-links {
+  padding: 40px 0;
+  display: flex;
+  justify-content: space-between;
+}
+.footer__site-map {
+  text-align: left;
+}
+.footer__site-map ul li {
+  margin: 0 0 20px;
+}
+.sns-icons {}
+.sns-icons ul {
+  display: flex;
+}
+.sns-icons .twitter-icon {
+  height: 32px;
+  padding: 0 20px;
+}
+.footer span {
+  display: inline-block;
+  text-align: center;
+  margin: 20px;
+}
+.footer a {
+  color: #fff;
+}
+@media(max-width :1080px) {
+  .footer {
+    background-color: #75828F;
+    height: 300px;
+  }
+  .footer-box {
+    max-width: 100%;
+    margin: 20px 20px 0 0;
+  }
+  .footer__site-map {
+    margin: 0 20px;
+  }
+  .read-more {
+    display: inline-block;
+    text-align: center;
+    /*隙間解消するまで固定*/
+    width: 40%;
+    padding: 14px 0;
+    margin: 20px 20px;
+    border: 3px solid #75828F;
+    font-size: 2.4rem;
+    background-color: #fff;
+  }
+}
